@@ -11,3 +11,5 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 }
+
+//changed onClick attribute on reset button to resetPoints from resetScore

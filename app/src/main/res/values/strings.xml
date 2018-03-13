@@ -17,4 +17,7 @@
     <string name="tag_teammate_team">0</string>
     <string name="hit_hq_team">0</string>
 
+    //Reset Button
+    <string name="reset">Reset</string>
+
 </resources>
