@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Laser Tag Score Keeper</string>
+
+    <string name="my_points">My Points</string>
+    //Individual TextViews
+    <string name="individual">Individual</string>
+    <string name="tag_opponent">0</string>
+    <string name="get_tagged">0</string>
+    <string name="tag_teammate">0</string>
+    <string name="hit_hq">0</string>
+
+
+    //Team TextViews
+    <string name="team">Team</string>
+    <string name="tag_opponent_team">0</string>
+    <string name="get_tagged_team">0</string>
+    <string name="tag_teammate_team">0</string>
+    <string name="hit_hq_team">0</string>
+
 </resources>
