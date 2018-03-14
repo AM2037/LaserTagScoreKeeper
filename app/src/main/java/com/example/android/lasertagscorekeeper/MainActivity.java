@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void addTwoHundredForIndividual(View v) {
         individualPoints = individualPoints + 200;
-        displayForIndividualPoints1(individualPoints);
+        displayForIndividualPoints(individualPoints);
     }
 
     /*
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void loseHundredForIndividual(View v) {
         individualPoints = individualPoints - 100;
-        displayForIndividualPoints2(individualPoints);
+        displayForIndividualPoints(individualPoints);
     }
 
     /*
@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void loseOneHundredForIndividual(View v) {
         individualPoints = individualPoints - 100;
-        displayForIndividualPoints3(individualPoints);
+        displayForIndividualPoints(individualPoints);
     }
 
     /*
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
     */
     public void addThousandForIndividual(View v) {
         individualPoints = individualPoints + 1000;
-        displayForIndividualPoints4(individualPoints);
+        displayForIndividualPoints(individualPoints);
     }
 
     /*
@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void addTwoForTeam(View v) {
         teamPoints = teamPoints + 2;
-        displayForTeam1(teamPoints);
+        displayForTeam(teamPoints);
     }
 
     /*
@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void loseOneForTeam(View v) {
         teamPoints = teamPoints - 1;
-        displayForTeam2(teamPoints);
+        displayForTeam(teamPoints);
     }
 
     /*
@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void loseOnePointForTeam(View v) {
         teamPoints = teamPoints - 1;
-        displayForTeam3(teamPoints);
+        displayForTeam(teamPoints);
     }
 
     /*
@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void addTenForTeam(View v) {
         teamPoints = teamPoints + 10;
-        displayForTeam4(teamPoints);
+        displayForTeam(teamPoints);
     }
 
 
@@ -113,79 +113,27 @@ public class MainActivity extends AppCompatActivity {
     public void resetPoints(View v) {
         individualPoints = 0;
         teamPoints = 0;
-        displayForIndividualPoints1(individualPoints);
-        displayForIndividualPoints2(individualPoints);
-        displayForIndividualPoints3(individualPoints);
-        displayForIndividualPoints4(individualPoints);
-        displayForTeam1(teamPoints);
-        displayForTeam2(teamPoints);
-        displayForTeam3(teamPoints);
-        displayForTeam4(teamPoints);
+        displayForIndividualPoints(individualPoints);
+        displayForTeam(teamPoints);
     }
 
     /*
     Displays tag opponent score for Individual.
      */
-    public void displayForIndividualPoints1(int score) {
-        TextView scoreView = (TextView) findViewById(R.id.individual_score_1);
+    public void displayForIndividualPoints(int score) {
+        TextView scoreView = (TextView) findViewById(R.id.individual_score);
         scoreView.setText(String.valueOf(score));
     }
 
-    /*
-    Displays get tagged score for Individual.
-     */
-    public void displayForIndividualPoints2(int score) {
-        TextView scoreView = (TextView) findViewById(R.id.individual_score_2);
-        scoreView.setText(String.valueOf(score));
-    }
-
-    /*
-    Displays tag teammate score for Individual.
-     */
-    public void displayForIndividualPoints3(int score) {
-        TextView scoreView = (TextView) findViewById(R.id.individual_score_3);
-        scoreView.setText(String.valueOf(score));
-    }
-
-    /*
-    Displays hit HQ score for Individual.
-     */
-    public void displayForIndividualPoints4(int score) {
-        TextView scoreView = (TextView) findViewById(R.id.individual_score_4);
-        scoreView.setText(String.valueOf(score));
-    }
 
     /*
     Displays tag opponent score for Team.
      */
-    public void displayForTeam1(int score) {
-        TextView scoreView = (TextView) findViewById(R.id.team_score_1);
+    public void displayForTeam(int score) {
+        TextView scoreView = (TextView) findViewById(R.id.team_score);
         scoreView.setText(String.valueOf(score));
     }
 
-    /*
-    Displays get tagged score for Team.
-     */
-    public void displayForTeam2(int score) {
-        TextView scoreView = (TextView) findViewById(R.id.team_score_2);
-        scoreView.setText(String.valueOf(score));
-    }
-
-    /*
-    Displays tag teammate score for Team.
-     */
-    public void displayForTeam3(int score) {
-        TextView scoreView = (TextView) findViewById(R.id.team_score_3);
-        scoreView.setText(String.valueOf(score));
-    }
-
-    /*
-    Displays hit HQ score for Team.
-     */
-    public void displayForTeam4(int score) {
-        TextView scoreView = (TextView) findViewById(R.id.team_score_4);
-        scoreView.setText(String.valueOf(score));
-    }
 }
 
 //changed onClick attribute on reset button to resetPoints from resetScore

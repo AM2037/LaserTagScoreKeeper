@@ -9,10 +9,12 @@
         android:id="@+id/my_points_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/mypoints2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
         android:adjustViewBounds="true"
         android:cropToPadding="false"
-        android:scaleType="fitXY" />
+        android:scaleType="fitXY"
+        android:src="@drawable/lasertag5" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -41,7 +43,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/individual_score_1"
+                android:id="@+id/individual_score"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/tag_opponent"
@@ -52,45 +54,11 @@
                 android:fontFamily="sans-serif-condensed"
                 android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/individual_score_2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/get_tagged"
-                android:gravity="center"
-                android:padding="@dimen/text_view_padding"
-                android:textSize="@dimen/points_text_size"
-                android:textColor="@android:color/white"
-                android:fontFamily="sans-serif-condensed"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/individual_score_3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/tag_teammate"
-                android:gravity="center"
-                android:padding="@dimen/text_view_padding"
-                android:textSize="@dimen/points_text_size"
-                android:textColor="@android:color/white"
-                android:fontFamily="sans-serif-condensed"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/individual_score_4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/hit_hq"
-                android:gravity="center"
-                android:padding="@dimen/text_view_padding"
-                android:textSize="@dimen/points_text_size"
-                android:textColor="@android:color/white"
-                android:fontFamily="sans-serif-condensed"
-                android:textStyle="bold" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/button_margin"
                 android:layout_marginLeft="@dimen/button_margins"
                 android:layout_marginRight="@dimen/button_margins"
                 android:text="@string/tag_opponent_button"
@@ -100,6 +68,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/button_margin"
                 android:layout_marginLeft="@dimen/button_margins"
                 android:layout_marginRight="@dimen/button_margins"
                 android:text="@string/get_tagged_button"
@@ -109,6 +78,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/button_margin"
                 android:layout_marginLeft="@dimen/button_margins"
                 android:layout_marginRight="@dimen/button_margins"
                 android:text="@string/tag_teammate_button"
@@ -118,6 +88,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/button_margin"
                 android:layout_marginLeft="@dimen/button_margins"
                 android:layout_marginRight="@dimen/button_margins"
                 android:text="@string/hit_hq_button"
@@ -151,7 +122,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/team_score_1"
+                android:id="@+id/team_score"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/tag_opponent_team"
@@ -162,45 +133,10 @@
                 android:fontFamily="sans-serif-condensed"
                 android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/team_score_2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/get_tagged_team"
-                android:gravity="center"
-                android:padding="@dimen/text_view_padding"
-                android:textSize="@dimen/points_text_size"
-                android:textColor="@android:color/white"
-                android:fontFamily="sans-serif-condensed"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/team_score_3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/tag_teammate_team"
-                android:gravity="center"
-                android:padding="@dimen/text_view_padding"
-                android:textSize="@dimen/points_text_size"
-                android:textColor="@android:color/white"
-                android:fontFamily="sans-serif-condensed"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/team_score_4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/hit_hq_team"
-                android:gravity="center"
-                android:padding="@dimen/text_view_padding"
-                android:textSize="@dimen/points_text_size"
-                android:textColor="@android:color/white"
-                android:fontFamily="sans-serif-condensed"
-                android:textStyle="bold" />
-
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/button_margin"
                 android:layout_marginLeft="@dimen/button_margins"
                 android:layout_marginRight="@dimen/button_margins"
                 android:text="@string/tag_opponent_team_button"
@@ -210,6 +146,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/button_margin"
                 android:layout_marginLeft="@dimen/button_margins"
                 android:layout_marginRight="@dimen/button_margins"
                 android:text="@string/get_tagged_team_button"
@@ -219,6 +156,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/button_margin"
                 android:layout_marginLeft="@dimen/button_margins"
                 android:layout_marginRight="@dimen/button_margins"
                 android:text="@string/tag_teammate_team_button"
@@ -228,6 +166,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/button_margin"
                 android:layout_marginLeft="@dimen/button_margins"
                 android:layout_marginRight="@dimen/button_margins"
                 android:text="@string/hit_hq_team_button"

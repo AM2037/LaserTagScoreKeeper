@@ -13,8 +13,9 @@ limitations under the License.
 -->
 
 <resources>
-    <dimen name="points_text_size">34sp</dimen>
-    <dimen name="name_text_size">20sp</dimen>
-    <dimen name="text_view_padding">2dp</dimen>
+    <dimen name="points_text_size">56sp</dimen>
+    <dimen name="name_text_size">24sp</dimen>
+    <dimen name="text_view_padding">4dp</dimen>
     <dimen name="button_margins">20dp</dimen>
+    <dimen name="button_margin">8dp</dimen>
 </resources>
