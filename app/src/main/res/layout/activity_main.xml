@@ -41,6 +41,7 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/individual_score_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/tag_opponent"
@@ -52,6 +53,7 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/individual_score_2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/get_tagged"
@@ -63,6 +65,7 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/individual_score_3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/tag_teammate"
@@ -74,6 +77,7 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/individual_score_4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/hit_hq"
@@ -90,6 +94,7 @@
                 android:layout_marginLeft="@dimen/button_margins"
                 android:layout_marginRight="@dimen/button_margins"
                 android:text="@string/tag_opponent_button"
+                android:onClick="addTwoHundredForIndividual"
                 android:textStyle="bold" />
 
             <Button
@@ -98,6 +103,7 @@
                 android:layout_marginLeft="@dimen/button_margins"
                 android:layout_marginRight="@dimen/button_margins"
                 android:text="@string/get_tagged_button"
+                android:onClick="loseHundredForIndividual"
                 android:textStyle="bold" />
 
             <Button
@@ -106,6 +112,7 @@
                 android:layout_marginLeft="@dimen/button_margins"
                 android:layout_marginRight="@dimen/button_margins"
                 android:text="@string/tag_teammate_button"
+                android:onClick="loseOneHundredForIndividual"
                 android:textStyle="bold" />
 
             <Button
@@ -114,6 +121,7 @@
                 android:layout_marginLeft="@dimen/button_margins"
                 android:layout_marginRight="@dimen/button_margins"
                 android:text="@string/hit_hq_button"
+                android:onClick="addThousandForIndividual"
                 android:textStyle="bold" />
 
         </LinearLayout>
@@ -143,6 +151,7 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/team_score_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/tag_opponent_team"
@@ -154,6 +163,7 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/team_score_2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/get_tagged_team"
@@ -165,6 +175,7 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/team_score_3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/tag_teammate_team"
@@ -176,6 +187,7 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/team_score_4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/hit_hq_team"
@@ -192,6 +204,7 @@
                 android:layout_marginLeft="@dimen/button_margins"
                 android:layout_marginRight="@dimen/button_margins"
                 android:text="@string/tag_opponent_team_button"
+                android:onClick="addTwoForTeam"
                 android:textStyle="bold" />
 
             <Button
@@ -200,6 +213,7 @@
                 android:layout_marginLeft="@dimen/button_margins"
                 android:layout_marginRight="@dimen/button_margins"
                 android:text="@string/get_tagged_team_button"
+                android:onClick="loseOneForTeam"
                 android:textStyle="bold" />
 
             <Button
@@ -208,6 +222,7 @@
                 android:layout_marginLeft="@dimen/button_margins"
                 android:layout_marginRight="@dimen/button_margins"
                 android:text="@string/tag_teammate_team_button"
+                android:onClick="loseOnePointForTeam"
                 android:textStyle="bold" />
 
             <Button
@@ -216,6 +231,7 @@
                 android:layout_marginLeft="@dimen/button_margins"
                 android:layout_marginRight="@dimen/button_margins"
                 android:text="@string/hit_hq_team_button"
+                android:onClick="addTenForTeam"
                 android:textStyle="bold" />
 
         </LinearLayout>
