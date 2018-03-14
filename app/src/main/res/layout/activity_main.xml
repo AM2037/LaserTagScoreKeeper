@@ -14,7 +14,7 @@
         android:adjustViewBounds="true"
         android:cropToPadding="false"
         android:scaleType="fitXY"
-        android:src="@drawable/lasertag5" />
+        android:src="@drawable/lasertag" />
 
     <LinearLayout
         android:layout_width="match_parent"
