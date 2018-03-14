@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -106,7 +107,6 @@ public class MainActivity extends AppCompatActivity {
         displayForTeam(teamPoints);
     }
 
-
     /*
     Resets scores for both individual and team back to 0. Display AFTER setting to 0 as shown below.
      */
@@ -124,7 +124,6 @@ public class MainActivity extends AppCompatActivity {
         TextView scoreView = (TextView) findViewById(R.id.individual_score);
         scoreView.setText(String.valueOf(score));
     }
-
 
     /*
     Displays tag opponent score for Team.
