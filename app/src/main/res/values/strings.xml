@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Laser Tag Score Keeper</string>
 
+    //ImageView
+    <string name="describe_img">This image is a laser tag facility with bright neon lights which is purely decorative.</string>
+
     <string name="my_points">My Points</string>
     //Individual TextViews
     <string name="individual">Individual</string>
