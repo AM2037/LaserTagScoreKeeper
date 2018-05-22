@@ -2,9 +2,6 @@
 <resources>
     //ImageView
 
-    //Title
-    <string name="app_name">Laser Tag die Wertung</string>
-
     //Individual TextViews
 
     //Team TextViews

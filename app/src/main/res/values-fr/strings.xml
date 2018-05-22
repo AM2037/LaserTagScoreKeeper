@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">"Laser Tag le Garde-chasse"</string>
 
     //ImageView
     <string name="describe_img">La image est un laser tag facilité avec néons lumineux qui est purement décoratif.</string>

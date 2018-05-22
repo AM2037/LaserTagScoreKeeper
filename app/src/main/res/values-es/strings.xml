@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Láser Etiqueta Guardián de Puntaje</string>
     //ImageView
     <string name="describe_img">Esta imagen es una instalación de láser tag con luces de neón brillantes que es puramente decorativa.</string>
 
