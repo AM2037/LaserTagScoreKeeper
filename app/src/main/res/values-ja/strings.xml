@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">レーザータグスコアキーパー</string>
+
+    //ImageView
+    <string name="describe_img">このイメージは純粋に装飾的な明るいネオンライトを備えたレーザータグ施設です。</string>
+
+    //Title
+    <string name="my_points">私のポイント</string>
+
+    //Individual TextView
+    <string name="individual">個人</string>
+
+
+    //Team TextView
+    <string name="team">チーム</string>
+
+
+    //Individual Buttons
+    <string name="tag_opponent_button">タグライバル</string>
+    <string name="get_tagged_button">タグを付ける</string>
+    <string name="tag_teammate_button">チームメイトにタグを付ける</string>
+    <string name="hit_hq_button">ヒット本部</string>
+
+    //Team Buttons
+    <string name="tag_opponent_team_button">タグライバル</string>
+    <string name="get_tagged_team_button">タグを付ける</string>
+    <string name="tag_teammate_team_button">チームメイトにタグを付ける</string>
+    <string name="hit_hq_team_button">ヒット本部</string>
+
+    //Reset Button
+    <string name="reset">リセット</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //ImageView
+
+    //Title
+    <string name="app_name">Laser Ujung yg Terlepas Gol Mencatat Biji Kurator</string>
+
+    //Individual TextViews
+
+    //Team TextViews
+
+    //Individual Buttons
+
+    //Team Buttons
+    <string name="app_name">Laser Tag Score Keeper</string>
+</resources>

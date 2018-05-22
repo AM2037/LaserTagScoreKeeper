@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Láser Etiqueta Guardián de Puntaje</string>
+    //ImageView
+    <string name="describe_img">Esta imagen es una instalación de láser tag con luces de neón brillantes que es puramente decorativa.</string>
+
+    //Title
+    <string name="my_points">Mis Puntos</string>
+
+    //Individual TextView
+    <string name="individual">Individual</string>
+
+    //Team TextView
+    <string name="team">Equipo</string>
+
+    //Individual Buttons
+    <string name="tag_opponent_button">Tag Oponente</string>
+    <string name="get_tagged_button">Obtener Tagged</string>
+    <string name="tag_teammate_button">Tag Compañero de Equipo</string>
+    <string name="hit_hq_button">Golpear HQ</string>
+
+    //Team Buttons
+    <string name="tag_opponent_team_button">Tag Oponente</string>
+    <string name="get_tagged_team_button">Obtener Tagged</string>
+    <string name="tag_teammate_team_button">Tag Compañero de Equipo</string>
+    <string name="hit_hq_team_button">Golpear HQ</string>
+
+
+    //Reset
+    <string name="reset">Reiniciar</string>
+</resources>

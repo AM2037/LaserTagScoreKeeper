@@ -4,7 +4,9 @@
     //ImageView
     <string name="describe_img">This image is a laser tag facility with bright neon lights which is purely decorative.</string>
 
+    //Title
     <string name="my_points">My Points</string>
+
     //Individual TextViews
     <string name="individual">Individual</string>
     <string name="tag_opponent">0</string>
@@ -20,13 +22,13 @@
     <string name="tag_teammate_team">0</string>
     <string name="hit_hq_team">0</string>
 
-    //Individual Button names
+    //Individual Buttons
     <string name="tag_opponent_button">Tag Opponent</string>
     <string name="get_tagged_button">Get Tagged</string>
     <string name="tag_teammate_button">Tag Teammate</string>
     <string name="hit_hq_button">Hit HQ</string>
 
-    //Team Button Names
+    //Team Buttons
     <string name="tag_opponent_team_button">Tag Opponent</string>
     <string name="get_tagged_team_button">Get Tagged</string>
     <string name="tag_teammate_team_button">Tag Teammate</string>
@@ -34,5 +36,4 @@
 
     //Reset Button
     <string name="reset">Reset</string>
-
 </resources>

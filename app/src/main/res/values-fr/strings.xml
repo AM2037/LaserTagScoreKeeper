@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"Laser Tag le Garde-chasse"</string>
+
+    //ImageView
+    <string name="describe_img">La image est un laser tag facilité avec néons lumineux qui est purement décoratif.</string>
+
+    //Title
+    <string name="my_points">Mes Points</string>
+
+    //Individual TextView
+    <string name="individual">Individuel</string>
+
+    //Team TextView
+    <string name="team">Équipe</string>
+
+    //Individual Buttons
+    <string name="tag_opponent_button">Tag Adversaire</string>
+    <string name="get_tagged_button">Se faire marquer</string>
+    <string name="tag_teammate_button">Tag Coéquipier</string>
+    <string name="hit_hq_button">Attaquer HQ</string>
+
+    //Team Buttons
+    <string name="tag_opponent_team_button">Tag Adversaire</string>
+    <string name="get_tagged_team_button">Se faire marquer</string>
+    <string name="tag_teammate_team_button">Tag Coéquipier</string>
+    <string name="hit_hq_team_button">Attaquer HQ</string>
+
+    //Reset Button
+    <string name="reset">Remettre</string>
+</resources>
