@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     //ImageView
+    <string name="describe_img">Це чисто декоративне зображення, що показує лазерний тег.</string>
 
-    //Individual TextViews
+    //Title
+    <string name="my_points">Мій рахунок</string>
 
-    //Team TextViews
+    //Individual TextView
+    <string name="individual">Індивідуальний</string>
+
+
+    //Team TextView
+    <string name="team">Команда</string>
 
     //Individual Buttons
+    <string name="tag_opponent_button">Тег противник</string>
+    <string name="get_tagged_button">Отримати постріл</string>
+    <string name="tag_teammate_button">Стріляти партнером</string>
+    <string name="hit_hq_button">Хіт штаб</string>
 
     //Team Buttons
+    <string name="tag_opponent_team_button">Тег противник</string>
+    <string name="get_tagged_team_button">Отримати постріл</string>
+    <string name="tag_teammate_team_button">Стріляти партнером</string>
+    <string name="hit_hq_team_button">Хіт штаб</string>
 
+    //Reset Button
+    <string name="reset">Скинути</string>
 </resources>

@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     //ImageView
+    <string name="describe_img">Dieses Bild ist eine Laser-Tag-Einrichtung mit hellen Neonlichtern, die rein dekorativ ist.</string>
 
-    //Individual TextViews
+    //Title
+    <string name="my_points">Meine Punkte</string>
 
-    //Team TextViews
+    //Individual TextView
+    <string name="individual">Individuell</string>
+
+
+    //Team TextView
+    <string name="team">Mannschaft</string>
 
     //Individual Buttons
+    <string name="tag_opponent_button">Schießen Gegner</string>
+    <string name="get_tagged_button">Get Erschossen Werden</string>
+    <string name="tag_teammate_button">Schießen Mitspieler</string>
+    <string name="hit_hq_button">Schuss HQ</string>
 
     //Team Buttons
+    <string name="tag_opponent_team_button">Schießen Gegner</string>
+    <string name="get_tagged_team_button">Get Erschossen Werden</string>
+    <string name="tag_teammate_team_button">Schießen Mitspieler</string>
+    <string name="hit_hq_team_button">Schuss HQ</string>
+
+    //Reset Button
+    <string name="reset">Zurücksetzen</string>
 </resources>

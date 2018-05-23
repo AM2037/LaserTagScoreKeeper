@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     //ImageView
+    <string name="describe_img">ภาพนี้เป็นสิ่งอำนวยความสะดวกแท็กเลเซอร์ที่มีไฟนีออนสว่างซึ่งเป็นของตกแต่งอย่างหมดจด</string>
 
-    //Individual TextViews
+    //Title
+    <string name="my_points">คะแนนของฉัน</string>
 
-    //Team TextViews
+    //Individual TextView
+    <string name="individual">รายบุคคล</string>
+
+
+    //Team TextView
+    <string name="team">ทีม</string>
+
 
     //Individual Buttons
+    <string name="tag_opponent_button">แท็กผู้เป็นปฏิปักษ์</string>
+    <string name="get_tagged_button">ติดแท็ก</string>
+    <string name="tag_teammate_button">แท็กทีม</string>
+    <string name="hit_hq_button">ยิง HQ</string>
 
     //Team Buttons
+    <string name="tag_opponent_team_button">แท็กผู้เป็นปฏิปักษ์</string>
+    <string name="get_tagged_team_button">ติดแท็ก</string>
+    <string name="tag_teammate_team_button">แท็กทีม</string>
+    <string name="hit_hq_team_button">ยิง HQ</string>
 
-    //Reset
+    //Reset Button
+    <string name="reset">รีเซ็ต</string>
 </resources>

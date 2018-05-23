@@ -1,12 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     //ImageView
+    <string name="describe_img">यह छवि उज्ज्वल नियॉन रोशनी के साथ एक लेजर टैग सुविधा है जो पूरी तरह से सजावटी है।</string>
 
-    //Individual TextViews
+    //Title
+    <string name="my_points">मेरे अंक</string>
 
-    //Team TextViews
+    //Individual TextView
+    <string name="individual">व्यक्ति</string>
+
+    //Team TextView
+    <string name="team">टीम</string>
 
     //Individual Buttons
+    <string name="tag_opponent_button">प्रतिद्वंद्वी हिट करें</string>
+    <string name="get_tagged_button">गैट हिट करें</string>
+    <string name="tag_teammate_button">हिट करें टीममाइट</string>
+    <string name="hit_hq_button">हिट करें मुख्यालय</string>
 
     //Team Buttons
+    <string name="tag_opponent_team_button">प्रतिद्वंद्वी हिट करें</string>
+    <string name="get_tagged_team_button">गैट हिट करें</string>
+    <string name="tag_teammate_team_button">हिट करें टीममाइट</string>
+    <string name="hit_hq_team_button">हिट करे मुख्यालय</string>
+
+    //Reset Button
+    <string name="reset">रीसेट</string>
 </resources>

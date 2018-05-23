@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Laser Ujung yg Terlepas Gol Mencatat Biji Kurator</string>
     //ImageView
+    <string name="describe_img">Gambar ini adalah fasilitas laser tag dengan lampu neon terang yang murni dekoratif.</string>
 
     //Title
-    <string name="app_name">Laser Ujung yg Terlepas Gol Mencatat Biji Kurator</string>
+    <string name="my_points">Poin saya</string>
 
-    //Individual TextViews
+    //Individual TextView
+    <string name="individual">Individu</string>
 
-    //Team TextViews
+
+    //Team TextView
+    <string name="team">Tim</string>
+
 
     //Individual Buttons
+    <string name="tag_opponent_button">Tandai Lawan</string>
+    <string name="get_tagged_button">Tertembak</string>
+    <string name="tag_teammate_button">Tandai Kawan Seregu</string>
+    <string name="hit_hq_button">Memukul Markas Besar</string>
 
     //Team Buttons
-    <string name="app_name">Laser Tag Score Keeper</string>
+    <string name="tag_opponent_team_button">Tandai Lawan</string>
+    <string name="get_tagged_team_button">Tertembak</string>
+    <string name="tag_teammate_team_button">Tandai Kawan Seregu</string>
+    <string name="hit_hq_team_button">Memukul Markas Besar</string>
+
+    //Reset Button
+    <string name="reset">Setel ulang</string>
 </resources>
