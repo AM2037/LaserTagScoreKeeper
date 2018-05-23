@@ -7,13 +7,14 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
+@SuppressWarnings("RedundantCast")
 public class MainActivity extends AppCompatActivity {
 
     //global int that tracks points for Individual
-    int individualPoints = 0;
+    private int individualPoints = 0;
 
     //global int that tracks points for Team
-    int teamPoints = 0;
+    private int teamPoints = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

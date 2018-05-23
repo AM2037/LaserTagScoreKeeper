@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <string name="app_name">Rapport de score du laser tag</string>
     //ImageView
     <string name="describe_img">La image est un laser tag facilité avec néons lumineux qui est purement décoratif.</string>
 
     //Title
     <string name="my_points">Mes Points</string>
 
-    //Individual TextView
+    //Individual TextViews
     <string name="individual">Individuel</string>
+    <string name="tag_opponent">0</string>
+    <string name="get_tagged">0</string>
+    <string name="tag_teammate">0</string>
+    <string name="hit_hq">0</string>
 
     //Team TextView
     <string name="team">Équipe</string>

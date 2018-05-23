@@ -7,12 +7,20 @@
     //Title
     <string name="my_points">Poin saya</string>
 
-    //Individual TextView
+    //Individual TextViews
     <string name="individual">Individu</string>
+    <string name="tag_opponent">0</string>
+    <string name="get_tagged">0</string>
+    <string name="tag_teammate">0</string>
+    <string name="hit_hq">0</string>
 
 
-    //Team TextView
+    //Team TextViews
     <string name="team">Tim</string>
+    <string name="tag_opponent_team">0</string>
+    <string name="get_tagged_team">0</string>
+    <string name="tag_teammate_team">0</string>
+    <string name="hit_hq_team">0</string>
 
 
     //Individual Buttons
